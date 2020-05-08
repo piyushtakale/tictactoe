@@ -1,0 +1,32 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>tic tac toe tr jamaylach pahije</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<table id="tic">
+			<tr>
+				<td class="cell" id="00" onclick="mark(this)"></td>
+				<td class="cell" id="01" onclick="mark(this)"></td>
+				<td class="cell" id="02" onclick="mark(this)"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="10" onclick="mark(this)"></td>
+				<td class="cell" id="11" onclick="mark(this)"></td>
+				<td class="cell" id="12" onclick="mark(this)"></td>
+			</tr>
+			<tr>
+				<td class="cell" id="20" onclick="mark(this)"></td>
+				<td class="cell" id="21" onclick="mark(this)"></td>
+				<td class="cell" id="22" onclick="mark(this)"></td>
+			</tr>
+		</table>
+		<button id="replay" onclick="reset()">replay</button>
+		<div class="result">click to replay<button id="replay" onclick="reset()">replay</button></div>
+		<script type="text/javascript" src="minimaxalgo.js"></script>
+
+	</body>
+
+</html>
